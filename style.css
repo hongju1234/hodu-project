@@ -1,0 +1,35 @@
+/* style.css */
+ul,li{
+    list-style: none ;
+    display: inline;
+    color: black;
+}
+li > button{
+
+}
+a{
+    text-decoration: none;
+}
+
+#wrap{
+    background: #F2E9D8;
+    width: 100%;
+    /*width: 1920px;*/
+    padding: 320px;
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    float: right;
+}
+
+#menu > li {
+    display: inline-block;
+}
+
+.header{
+    background: #F2E9D8;
+}
